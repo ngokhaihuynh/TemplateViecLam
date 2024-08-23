@@ -1,0 +1,783 @@
+@charset "utf-8";
+/* Recruitment CSS Document */
+body {
+	font-family: Tahoma, Helvetica, sans-serif;
+	color: #555555;
+	font-size: 12px
+}
+img {
+	border: none;
+	vertical-align: middle
+}
+.fl {
+	float: left
+}
+.fr {
+	float: right
+}
+.red {
+	color: #ff0000
+}
+.blue {
+	color: #0000ff
+}
+.align_l {
+	text-align: left !important
+}
+.align_r {
+	text-align: right !important
+}
+.ft_11 {
+	font-size: 11px
+}
+.ft_12 {
+	font-size: 12px
+}
+#recruitment #main {
+	margin-top: 28px
+}
+/*Top menu_rec Recruitment*/
+.menu_rec {
+	position: relative;
+	background: #223191;
+	height: 40px;
+}
+.menu_rec ul {
+	width: 1000px;
+	margin: 0 auto;
+}
+.menu_rec > ul > li {
+	float: left;
+	list-style: none outside none;
+	padding: 9px 10px;
+	background-image:url(../Images/bglinavx.png);
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+.menu_rec > ul > li:first-child{ background-image:none;}
+.menu_rec > ul > li > a {
+	display: inline-block;
+	font-size: 1.1em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF
+}
+.menu_rec > ul > li.active, .menu_rec > ul > li:hover {
+	background: #6976c7
+}
+.menu_rec > ul > li.active > a, .menu_rec > ul > li:hover > a {
+	
+}
+.menu_rec > ul > li > a:hover {
+	text-decoration: none
+}
+.sub_menu_rec {
+	position: absolute;
+	top: 36px;
+	left: 0;
+	width: 100%;
+	height: 32px;
+	background: #6976c7
+}
+.sub_menu_rec ul {
+	width: 1000px;
+	margin: 0 auto;
+	background: #a8a9aa
+}
+.sub_menu_rec li {
+	display: inline-block;
+	float: left;
+	list-style: none outside none;
+	padding: 8px 0px;
+}
+.sub_menu_rec li a {
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 0 5px;
+	border-right: 1px solid #FFFFFF
+}
+.sub_menu_rec li.active a, .sub_menu_rec li a:hover {   }
+.sub_menu_rec li:last-child a {
+	border: none
+}
+/*Ads*/
+.ads_rec img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px
+}
+.block_rec {
+	background: #fff;
+	/*border: 1px solid #E3E3E3;*/
+	margin: 0;
+	padding: 10px 0;
+	position: relative
+}
+.hot_rec_title {
+	height: 30px;
+	border-bottom: solid 2px #8C98EA;
+	margin-bottom:5px;
+}
+.hot_rec_title b {
+	float: left;
+	color: #ed2227;
+	font: bold 15px/30px Tahoma, Geneva, sanfilter-serif
+}
+.effective_rec_link {
+	float: right;
+	color: #293790;
+	font-size: 1.1em;
+	font-weight: 700;
+	margin-top: 3px;
+}
+.title_rec_home {
+	height: 30px;
+	line-height: 30px;
+	background: #D4D8F3;
+	color:#000
+ 
+
+}
+.title_rec_home b {
+	float: left;
+	padding-left: 10px;
+	font-size: 1.1em;
+}
+.block_rec li.col_rec_item {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 15px;
+}
+.block_rec .col_rec_item_ct {
+	width: 82%;
+	background: url(../Images/arrow_l_rec.png) 10px 6px no-repeat;
+	padding-left: 20px;
+}
+.block_rec .position_job, .block_rec .recruiter_name {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px;
+	font-weight: 500
+}
+.block_rec .position_job {
+	font-weight: 700;
+	margin-bottom: 2px
+}
+.view_more_rec {
+	float: right;
+	clear: both;
+	margin: 0 10px;
+	color: #293790;
+	font-size: 0.9em;
+	font-weight: 700
+}
+.sort_rec {
+	float: right;
+	font-size: 0.9em;
+	margin-right: 5px
+}
+.sort_rec a {
+	font-weight: 700;
+	padding: 0 5px 0 4px
+}
+.sort_rec a.active {
+	color: #293790
+}
+.bl_white {
+	background: #FFFFFF
+}
+.sort_status {
+	color: #293790;
+	padding: 0 10px 10px 10px
+}
+.sort_status b {
+	color: #ed2227
+}
+#list_career li {
+	margin: 4px 0
+}
+#list_career .col_rec_item_ct {
+	background: none
+}
+#list_career .number_jobs {
+	color: #ed2227;
+	padding-left: 5px;
+	font-size: 11px;
+}
+.select_rec {
+	float: right;
+	margin-right: 10px;
+	font-size: 90%
+}
+.select_rec select {
+	position: relative;
+	width: 120px;
+	margin-top: 1px;
+	padding: 2px;
+	height: 23px;
+	border: none
+}
+/*Pagination*/
+.pageList {
+	clear: both;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 10px 5px 0;
+	text-align: right;
+}
+.pageList a, .pageList b {
+	color: #293790;
+	font-weight: 700;
+	margin: 0 4px;
+}
+.pageList a:hover {
+	color: #F20000;
+	text-decoration: underline;
+}
+#handbook_search_jobs {
+	padding-top: 0
+}
+#handbook_search_jobs .quick_page {
+	padding: 0 9px
+}
+#handbook_search_jobs .quick_page li {
+	float: left;
+	width: 94%;
+	padding-top: 10px
+}
+#handbook_search_jobs li .handbook_title {
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 0 5px;
+}
+#handbook_search_jobs img {
+	float: left;
+	margin-right: 10px;
+	max-width: 80px;
+	height: auto
+}
+/*Filter*/
+.searchGroup {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	padding: 5px 0;
+	vertical-align: top;
+	width: 80px;
+}
+.searchObject {
+	display: inline-block;
+	float: right;
+	padding: 0;
+	vertical-align: top;
+	width: 200px;
+}
+.filter_textbox {
+	border: 1px solid #C6DBE0;
+	color: #666666;
+	padding: 3px;
+	width: 180px;
+	margin-bottom: 5px;
+}
+.filter_list {
+	border: 1px solid #C6DBE0;
+	margin: 1px 0 0;
+	padding: 3px 5px;
+	width: 188px;
+	height: 100px;
+}
+.filter_drop {
+	border: 1px solid #C6DBE0;
+	color: #666666;
+	padding: 3px;
+	width: 188px;
+}
+.filter_drop1 {
+	border: 0 solid #C6DBE0;
+	color: #666666;
+	font-size: 12px;
+	padding: 1px;
+	width: 188px;
+}
+.searchMore {
+	color: #0033CC;
+	display: block;
+	float: right;
+	font-size: 11px;
+	text-align: right;
+}
+.searchMore a {
+	color: #5B960D;
+	font-size: 11px;
+}
+.searchMore a:hover {
+	text-decoration: underline;
+}
+.searchItem {
+	padding: 3px 0 5px;
+	margin:3px 0;
+	clear:both;
+	
+}
+ul.searchList {
+	margin: 0;
+	width: auto;
+	padding: 0 0 5px 60px;
+}
+ul.searchList li {
+	display: block;
+	font-size: 11px;
+	list-style: none outside none;
+	margin: 2px 0 0;
+}
+ul.searchList li a {
+	color: #333333;
+	font-size: 11px;
+	padding: 0;
+}
+ul.searchList li a:hover {
+	color: #CA0002;
+}
+.button_filter {
+	margin: 5px 12px 5px 10px
+}
+.cancel_button {
+	margin-top: 15px
+}
+/*Manage Resume*/
+.navBar {
+	border-bottom: 2px solid #8C98EA;
+	padding: 3px 0;
+	height: 30px;
+	margin-bottom:5px;
+}
+.navBarLeft {
+	float: left;
+}
+.navBarRight {
+	float: right;
+	text-align: right;
+	width: 250px;
+}
+.navBarTxt {
+	color: #ed2227;
+ 
+	font: bold 15px/30px Tahoma, Geneva, sans-serif;
+}
+.resumes_status {
+	margin: 10px 0
+}
+.number_jobs {
+	margin: 10px 0;
+	clear: both;
+}
+.resumes_status_item {
+	display: inline-block;
+	width: 22%;
+	margin: 5px 0
+}
+.resumes_status .mr_l {
+	margin-left: 22.3%
+}
+.resumes_status_item b {
+	color: #ed2227
+}
+.resumes_table {
+	display:table;
+	width: 100%;
+	border-collapse:collapse;
+	border: 1px solid #e3e3e3
+}
+.resumes_row {
+	display:table-row;
+	border-bottom: 1px solid #e3e3e3;
+}
+.resumes_th {
+	display: table-cell;
+	text-align: center;
+	font-weight: 700;
+	background: #f3f3f3;
+	height: 30px;
+	vertical-align: middle;
+	padding: 5px 0;
+	
+	background: #eeeeee;
+background: -moz-linear-gradient(top,  #eeeeee 0%, #eeeeee 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#eeeeee));
+background: -webkit-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%);
+background: -o-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%);
+background: -ms-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%);
+background: linear-gradient(to bottom,  #eeeeee 0%,#eeeeee 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 );
+color:#000;
+/*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+}
+.resumes_td {
+	display:table-cell;
+	text-align: center;
+	padding: 10px;
+	vertical-align: middle;
+	color:#555;
+}
+.job_td {
+	text-align: left
+}
+.actions_td, .actions_td a {
+	color: #293790;
+	font-size: 11px;
+}
+#created_CV .resumes_row {
+	background: none;
+	border: none;
+}
+#created_CV .resumes_td {
+	padding: 3px 0
+}
+/*Tooltip* /	
+/* trigger button */
+  .job_name {
+	cursor:pointer;
+	color: #222222;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 600
+}
+/* tooltip styling */
+  .tooltip_ct {
+	display:none;
+	background: #e1e1e1;
+	padding: 10px;
+	width:420px;
+	font-size:11px;
+	z-index: 9999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	top: 100% !important;
+	left: 50% !important;}
+/* a .label element inside tooltip */
+ .td_tootip {
+	background: #FFFFFF
+}
+.check_status {
+	padding-bottom: 15px;
+	margin-top: 15px;
+	border-bottom: 1px solid #e7e7e7
+}
+.checkAll {
+	background: url(../Images/sprites_icon.png) no-repeat scroll 0 -156px;
+	color: #364497;
+	margin-right: 30px;
+	padding: 0 0 0 20px;
+}
+.unCheck {
+	background: url(../Images/sprites_icon.png) no-repeat scroll 0 -179px;
+	color: #364497;
+	padding: 0 0 0 18px;
+}
+.btn_actions a {
+	color: #333333;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 10px 20px 10px 0;
+	padding: 15px 0 12px 38px;
+	background-image: url(../Images/sprites_icon.png);
+	background-repeat: no-repeat
+}
+.remove_profile {
+	background-position: 9px 9px
+}
+.post_profile {
+	background-position: 0 -30px
+}
+.cancel_post_profile {
+	background-position: 0 -70px
+}
+.recover_profile {
+	background-position: 0 -110px
+}
+.assessment_rec {
+	background-position: 0 -275px
+}
+.send_to_friends {
+	background-position: 3px -318px
+}
+.save_rec {
+	background-position: 3px -366px
+}
+.matriculated { /*trung tuyen*/
+	background-position: 3px -410px
+}
+.refused {
+	background-position: 0 -455px
+}
+.excel {
+	background-position: 0 -502px
+}
+.sort_by {
+	float: right;
+	width: 300px;
+	margin-top: 22px
+}
+.sl_dropBox {
+	border: 1px solid #BBBBBB;
+	padding: 2px;
+}
+/*Creating Profiles*/
+.rules {
+	border: 2px solid #DDDDDD;
+	padding: 5px 5px 5px 25px;
+	height:110px;
+	overflow:auto;
+	margin: 10px 0
+}
+.colLeft_QTNTV {
+	float: left;
+	width: 780px
+}
+.colRight_QTNTV {
+	background: #F5F5F5;
+	border: 1px solid #DDDDDD;
+	float: right;
+	padding: 10px;
+	width: 188px;
+}
+.tbUser_row {
+	clear: both;
+	line-height: 23px;
+	color: #330000;
+	padding-left: 20px;
+}
+.tbUser_col {
+	float: left;
+	width: 30%;
+	position: relative;
+	padding: 5px 5px 5px 0;
+}
+.tbUser_col.col_r {
+	width: 64%;
+	margin-left: 10px;
+}
+#recruitment .textbox {
+	background: url(../Images/txtBg.gif) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	border: 1px solid #C6DBE0;
+	color: #666666;
+	padding: 5px;
+	width: 320px;
+}
+#recruitment .textArea {
+	background: url(../Images/txtBg.gif) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	border: 1px solid #C6DBE0;
+	height: 60px;
+	margin: 5px 0 0;
+	padding: 5px 10px;
+	width: 310px;
+}
+#recruitment .dropbox {
+	background: url(../Images/txtBg.gif) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	border: 1px solid #C6DBE0;
+	color: #666666;
+	padding: 4px 5px;
+	width: 330px;
+}
+#recruitment .listTruong {
+	background: url(../Images/txtBg.gif) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	border: 1px solid #C6DBE0;
+	height: 120px;
+	margin: 5px 0 0;
+	overflow: auto;
+	padding: 5px 10px;
+	width: 310px;
+}
+#recruitment .listTruong a {
+	color: #333333;
+	display: block;
+}
+#recruitment .listTruong ul.searchList {
+	margin: 0;
+	padding: 0 0 5px 60px;
+	background: none;
+}
+.btn_green01 {
+	background: #2ea12e url(../Images/greenBg.jpg) bottom left repeat-x;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.btn_green02 {
+	display: inline-block;
+	padding: 0 10px;
+	height: 25px;
+	background: url(../Images/greenBg02.jpg) 0 0 repeat-x;
+	color: #FFFFFF;
+	font: bold 12px/25px Arial, Helvetica, sans-serif;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+	text-decoration: none
+}
+.btn_green01:hover, .btn_green02:hover {
+	text-decoration: none;
+	color: #FFFFFF
+}
+.btn_view_CV {
+	width:160px;
+	height:40px;
+	margin-bottom: 10px;
+	display:inline-block;
+	text-align:center;
+	float: right;
+	margin-left: 10px
+}
+.searchGroupMauTin {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	padding: 5px 0;
+	vertical-align: top;
+	width: 180px;
+}
+ul.HSMau {
+	margin: 0;
+	padding: 5px 0 5px 10px;
+}
+ul.HSMau li {
+	display: block;
+	font-size: 11px;
+	list-style: none outside none;
+	margin: 2px 0 0;
+}
+ul.HSMau li a {
+	color: #333333;
+	display: block;
+	font-size: 11px;
+	padding: 0;
+}
+.linkAdd {
+	display: block;
+	background: url(../images/sprites_icon.png) no-repeat scroll 0 -196px;
+	padding: 6px 0 0 25px;
+	margin-top: 5px;
+}
+.HSMauItem {
+	border-bottom: 1px dashed #E5E5E5;
+	padding: 15px 0 0;
+}
+.view_all_trades {
+	padding: 10px 0;
+	text-align: right;
+}
+.view_all_trades a {
+	background: url(../Images/arrow_l_rec01.png) no-repeat scroll 0 5px;
+	color: #293790;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+}
+/*Saved Jobs*/
+#posted_jobs {
+	display: block;
+	height: 125px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#posted_jobs a {
+	color: #0000ff
+}
+#posted_jobs .resumes_row {
+	border: none
+}
+#posted_jobs .resumes_th {
+	padding: 0 10px;
+	text-align: left;
+	border-bottom: 1px solid #E3E3E3
+}
+#posted_jobs .resumes_td {
+	text-align: left;
+	color: #0000ff;
+	padding: 5px 10px;
+}
+/*Avatar*/
+.avatar {
+	position: absolute;
+	top:10px;
+	left: 10px;
+	width: 130px;
+	min-height: 350px
+}
+.terms {
+	border: 1px solid #DDDDDD;
+	color: #666666;
+	height: 120px;
+	line-height: 18px;
+	margin: 0 10px;
+	overflow: auto;
+	padding: 10px;
+}
+/*Recruiters*/
+#feedback li {
+	float: left;
+	width: 99%;
+	background: #FFFFFF;
+	padding: 5px;
+	margin-bottom: 10px
+}
+.line_border {
+	height: 1px;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 10px;
+}
+.career_name {
+	font-size: 1.1em
+}
+.share_left {
+	border-bottom: 1px solid #E5E5E5;
+	color: #000000;
+	line-height: 25px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.share_left a { text-decoration: none }
+.stickytooltip{
+box-shadow: 5px 5px 8px #818181; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 5px 5px 8px #818181;
+-moz-box-shadow: 5px 5px 8px #818181;
+display:none;
+position:absolute;
+display:none;
+border:5px solid black; /*Border around tooltip*/
+background:white;
+z-index:3000;
+}
+
+
+.stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+background:black;
+color:white;
+padding-top:5px;
+text-align:center;
+font:bold 11px Arial;
+}
+
+.menu_rec ul li.selectQLNN{ float:right;  padding: 3px 5px !important;}
+.quanLiNN{ height:30px; background:#f00; color:#fff; border:0; padding:0; border: solid 1px #fff;}
+#right_sidebar .block_rec { border: solid 1px #ddd}
+
+#right_sidebar .blocktitle { background:#1A30BA; color:#fff;}

@@ -1,0 +1,365 @@
+
+.inputbox {
+    border: 1px solid #A8A8A8;
+    padding: 4px;
+}
+textarea {
+    border: 1px solid #E5E5E5;
+    height: 60px;
+    width: 680px;
+}
+label {
+    margin-right: 8px;
+}
+.list {
+    width: 100%;
+}
+.list .row {
+    clear: both;
+    margin: 0;
+    width: 100%;
+}
+.list .cate {
+    float: left;
+    padding: 0;
+    width: 25%;
+}
+
+
+.list .cate .product, .list .cate .deal_today {
+    border-bottom: 1px solid #E3E3E3;
+    border-right: 1px solid #E3E3E3;
+    height: 220px;
+    margin: 0;
+    padding: 10px 12px 20px 12px;
+}
+.deal_today
+{
+    padding: 10px 8px 20px !important;
+    }
+.list .cate .deal_today .product_image {
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+.list .cate .deal_today {
+    height: 155px;
+}
+.list .cate .selloff {
+    height: 225px;
+}
+.list .cate .shop {
+    height: 200px;
+}
+.list .cate .shop .company {
+    width: 100%;
+}
+.list .product_image {
+    display: block;
+    height: 175px;
+    padding: 0;  
+    width: 175px;
+	text-align: center;
+}
+.list .deal_image {
+    display: block;
+    height: 125px;
+    padding: 0;  
+	text-align: center;
+	position: relative;
+}
+.list .product_image a {
+    display: block;
+    overflow: hidden;
+    height: auto;
+}
+.list .product_image .price-reduce span {
+    position: absolute;
+}
+.list .product .product_name, .list .product .name {
+    color: #555555;
+    display: block;
+    font-size: 12px;
+    height: 18px;
+    padding: 5px 0;
+    margin: 0;
+    text-align: left;
+}
+.list .product .product_name a {
+    color: #555555;
+    font-weight: 100;
+}
+.list .company {
+    color: #7B7B7B;
+    float: left;
+    line-height: 20px;
+    padding-left: 0;
+    text-align: left;
+    width: 52%;
+}
+.list .company img {
+	margin-top: -3px;
+	vertical-align: middle;
+}
+.list .shop .company {
+    color: #555555;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.list .company a, .list .shop .company a {
+    color: #de6100;
+}
+.list .cate_price {
+    background: none repeat scroll 0 0 transparent;
+    color: #D91A1C;
+    float: right;
+    line-height: 20px;
+    text-align: right;
+    width: 48%;
+}
+.list .first_price {
+    background: none repeat scroll 0 0 transparent;
+    color: #555555;
+    float: right;
+    font-size: 10px;
+    line-height: 15px;
+    padding-right: 5px;
+    text-align: right;
+    width: 90%;
+}
+.list .first_price span {
+    /*background: url("../Images/line1.gif") repeat-x scroll left center transparent;
+    color: #D91A1C;*/
+    text-decoration : line-through;
+}
+.list .product .order {
+    float: left;
+    font-size: 12px;
+    text-align: left;
+    width: 45%;
+	margin: 0;
+}
+.list .order span {
+    color: #D91A1C;
+    font-weight: bold;
+}
+.list .cate_price1 {
+    background: url("../Images/price-deal.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    width: 106px;
+}
+.list .cate_price2 {
+    color: #3E3E3E;
+    float: left;
+    font-size: 10px;
+    height: 20px;
+    line-height: 18px;
+    /*text-align: center;*/
+    width: 70px;
+}
+.list .first_price span {
+   /* background: url("../Images/line1.gif") repeat-x scroll left center transparent;
+    color: #D91A1C;*/
+    text-decoration : line-through;
+}
+.list .shop_categ {
+    float: left;
+    padding: 0;
+    width: 50%;
+}
+.list .shop_image {    
+    display: block;
+    margin: 0 5px 5px;
+    text-align: center;
+}
+.list .shop_image img { padding: 0; border: 1px solid #E3E3E3; }
+.list .new_shop {
+    /*float: left;*/
+    margin: 0 0 5px;
+}
+.list .new_shop_home {
+    float: left;
+    margin: 0 0 5px;
+}
+.list .description {
+    float: right;
+    padding: 10px 5px;
+    text-align: left;
+    width: 55%;
+	font: normal 13px Tahoma;
+}
+#facebook span {
+    color: #3B5998;
+}
+#facebook span img {
+    padding-top: 10px;
+}
+.list .facebook {
+    float: left;
+    margin: 0;
+    padding: 0 2px;
+    width: 31%;
+}
+.list .facebook .shop_image {
+    border: medium none;
+    padding-right: 5px;
+}
+.list .nick_name {
+    float: left;
+    font-size: 11px;
+    padding: 0 5px;
+    text-align: center;
+    width: 90%;
+}
+.product_image {
+    position: relative;
+}
+.block h2.product_title {
+    color: #006600;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+	text-align: left;
+}
+.product_title a {
+    color: #006600;
+
+}
+.product_status {
+    background: none repeat scroll 0 0 #FFFF00;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0;
+    padding: 5px 25px;
+    position: absolute;
+    top: 0;
+}
+.product_reduce {
+    background: url("../Images/reduce.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 11px;
+    height: 48px;
+    padding-right: 5px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 38px;
+}
+.navigation {
+    float: left;
+    margin: 5px 0;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.navigation a {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border: 1px solid #E3E3E3;
+    color: #555555;
+    padding: 5px 10px;
+}
+.navigation b {
+    background: none;
+    border: none;
+    color: #555555;
+    padding: 5px 8px;
+}
+.navigation a:hover {
+    color: #555555;
+}
+.navigation a.previous {
+    background: url("../Images/pre.png") no-repeat scroll left center #F3F3F3;
+    border: 1px solid #E3E3E3;
+    color: #555555;
+    padding-left: 20px;
+}
+.navigation a.next {
+    background: url("../Images/next.png") no-repeat scroll right center #F3F3F3;
+    border: 1px solid #E3E3E3;
+    color: #555555;
+    padding-right: 20px;
+}
+#toTop {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: 10px;
+    cursor: pointer;
+    display: none;
+    padding: 5px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    width: 50px;
+}
+div#pop-up {
+    background: none repeat scroll 0 0 #E9E9E9;
+    color: #555555;
+    display: none;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px;
+    position: absolute;
+    width: 200px;
+}
+#pop-up .like {
+    background: url("../Images/heart.png") no-repeat scroll left top transparent;
+    line-height: 25px;
+    margin: 10px 0 0 5px;
+    padding-left: 25px;
+}
+.boxgrid {
+    float: left;
+    font-size: 11px;
+    line-height: 16px;
+    overflow: hidden;
+    position: relative;
+    left: -12px;
+    top: -5px;
+    width: 210px;
+}
+.boxcaption {
+    background: none repeat scroll 0 0 #F7F8ED;
+    float: left;
+    height: 240px;
+    opacity: 0.9;
+    padding: 5px 10px;
+    position: absolute;
+    width: 178px;
+}
+.boxgrid .product_image 
+{
+    padding-left: 12px;
+    padding-top: 5px; }
+.boxgrid p {
+    color: #555555;
+    font-size: 11px;
+    line-height: 16px;
+}
+.boxgrid p span {
+    color: #002398;
+}
+.boxgrid .sell_off {
+    color: #FF0000;
+    font-size: 10px;
+}
+div.table {
+	border-collapse: collapse;
+	display: table;
+	width: 100%;
+}
+div.tRow {
+	display: table-row;
+}
+div.tCell {
+	border: 1px solid #e3e3e3;
+	display: table-cell;
+	width: 100%;
+	height: auto;
+	padding: 5px 10px 20px 0;
+}

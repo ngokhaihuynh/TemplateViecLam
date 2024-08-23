@@ -1,0 +1,205 @@
+/*Split products*/
+ul.pagination {
+	background: none;
+	height: auto !important;
+}
+ul.pagination li {
+	float: left;
+	width: 25%;
+	list-style:none;
+}
+ul.pagination2 {
+	background: none;
+	height: auto !important;
+}
+ul.pagination2 li {
+	float: left;
+	width: 25%;
+	list-style:none;
+}
+ul.deal li {
+	float: left;
+	width: 33.334%;
+	list-style:none;
+}
+ul.simplePagerNav {
+	float: right;
+	margin: -20px 75px 0 0;
+	width: auto;
+	background: none;
+}
+ul.simplePagerNav li {
+	float: left;
+	list-style: none;
+}
+ul.simplePagerNav li a {
+	display: inline-block;
+	float: left;
+	height: 5px;
+	padding: 3px 10px;
+	cursor: pointer;
+	background: url(../Images/bullets.png) bottom left no-repeat;
+	text-indent: -9999px;
+}
+ul.simplePagerNav li a {
+	color: #333;
+	text-decoration: none;
+}
+ul.simplePagerNav li.currentPage a {
+	background: url(../Images/bullets.png) top left no-repeat;
+}
+ul.simplePagerNav li.currentPage a {
+	color: #fff;
+}
+/* page 6 */
+ul.simplePagerNav1 {
+	float: right;
+	top: -25px;
+	right: 0px;
+	width: auto;
+	background: none;
+	position: absolute;
+}
+ul.simplePagerNav1 li {
+	float: left;
+	list-style: none;
+}
+ul.simplePagerNav1 li a {
+	display: inline-block;
+	float: left;
+	height: 5px;
+	padding: 3px 10px;
+	cursor: pointer;
+	background: url(../Images/bullets.png) bottom left no-repeat;
+	text-indent: -9999px;
+}
+ul.simplePagerNav1 li a {
+	color: #333;
+	text-decoration: none;
+}
+ul.simplePagerNav1 li.currentPage a {
+	background: url(../Images/bullets.png) top left no-repeat;
+}
+ul.simplePagerNav1 li.currentPage a {
+	color: #fff;
+}
+/*Split 40 products*/
+.pagelistshop ul.pagination {
+	background: none;
+	height: auto !important;
+}
+.pagelistshop ul.pagination li {
+	float: left;
+	width: 25%;
+	list-style:none;
+}
+/*--------------------------------*/
+.pagelistshop ul.simplePagerNav {
+	background: none repeat scroll 0 0 #FFFFFF;
+	display: table;
+	margin: 0 auto;
+	padding-top: 5px;
+	text-align: center;
+	width: 801px;
+	z-index: 999;
+}
+.pagelistshop ul.simplePagerNav li {
+	display: inline-block;
+	list-style: none outside none;
+}
+.pagelistshop ul.simplePagerNav li a {
+	background: none repeat scroll 0 0 #F3F3F3;
+	border: 1px solid #E3E3E3;
+	cursor: pointer;
+	height: 18px;
+	margin: 3px;
+	text-align: center;
+	text-indent: 0;
+}
+.category_quickpage ul.simplePagerNav {
+	margin-right: 0px;
+}
+/*--------------------------------*/
+
+.pagelistshop ul.simplePagerNav li a {
+	color: #555555;
+	text-decoration: none;
+}
+.pagelistshop ul.simplePagerNav li.currentPage a {
+	background: none;
+}
+.pagelistshop ul.simplePagerNav li.currentPage a {
+	color: #555555;
+}
+table.pageme {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+}
+table.pageme td {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+}
+/*Slide left*/
+#holder {
+	/* The unordered list that is to be split into pages */
+
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	background: none;
+	padding-bottom:10px;
+	background: none;/*	CSS3 inner shadow (the webkit one is commeted, because Google Chrome
+		does not like rounded corners combined with inset shadows): 
+	-moz-box-shadow:0 0 10px #222 inset;
+	/*-webkit-box-shadow:0 0 10px #222 inset;
+	box-shadow:0 0 10px #222 inset; */
+}
+.swControls {
+	position:absolute;
+	top: 10px;
+	right: 5px;
+}
+a.swShowPage {
+	/* The links that initiate the page slide */
+
+	background: url(../Images/bullets.png) bottom left no-repeat;
+	float:left;
+	height:5px;
+	padding:3px 10px;
+	/*border:1px solid #ccc;*/	
+	/* CSS3 rounded corners 	
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;*/
+	text-indent:-9999px;
+}
+a.swShowPage:hover, a.swShowPage.active {
+	background: url(../Images/bullets.png) top left no-repeat;/*	CSS3 inner shadow 	
+	-moz-box-shadow:0 0 7px #1e435d inset;
+	/*-webkit-box-shadow:0 0 7px #1e435d inset;
+	box-shadow:0 0 7px #1e435d inset; */
+}
+#holder li {
+	list-style:none outside none;
+	margin: 0;
+	padding: 0;
+	float:left;
+	width: 50%;/* Regular CSS3 box shadows (not inset): 
+
+	-moz-box-shadow:0 0 6px #111111;
+	-webkit-box-shadow:0 0 6px #111111;
+	box-shadow:0 0 6px #111111;*/
+}
+#holder, #holder li {
+/* Applying rouded corners to both the holder and the holder lis 
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;*/
+}
+.clear {
+	/* This class clears the floated elements */
+	clear:both;
+}
+.block_rec ul.simplePagerNav {
+	margin: -20px 0 0 0;
+}
